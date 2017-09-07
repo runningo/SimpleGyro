@@ -3,9 +3,10 @@ package com.example.user.simplegyro;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity implements GyroDetector.ISwingDetectListener{
+public class MainActivity extends AppCompatActivity implements GyroDetector.ISwingDetectListener {
     private TextView mTextView;
     private GyroDetector mGyroDetector;
     private float degree = 0f;
@@ -45,5 +46,12 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
             Log.d("gz", String.valueOf(gz));
         }
          mTextView.setText(String.valueOf(degree));
+    }
+    @Override
+    public boolean dispatchKeyEvent(KeyEvent event){
+        if (event.getAction() == KeyEvent.ACTION_DOWN || (event.getKeyCode() == KeyEvent.KEYCODE_DPAD_CENTER)){
+            mTextView.setRotation(0);
+        }
+        return super.dispatchKeyEvent(event);
     }
 }
