@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="C:\Users\user\Desktop\hyeongju\BT300_SDK1702\BT300_SDK1702\BT300Sample\BT300Sample\SimpleGyro\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="C:\Users\user\Desktop\hyeongju\BT300_SDK1702\BT300_SDK1702\BT300Sample\BT300Sample\SimpleGyro\app\src\debug\shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="E:\Github\SimpleGyro\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="E:\Github\SimpleGyro\app\src\debug\shaders"/></dataSet></merger>

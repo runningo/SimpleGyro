@@ -1,0 +1,101 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:2:1-26:12
+	package
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:3:5-42
+		INJECTED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:5:5-67
+	android:name
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:5:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:6:5-80
+	android:name
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:6:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:7:22-78
+application
+ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:9:5-24:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\erunn\.android\build-cache\a9e746af828424b526320e959e1e547d4174088d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\erunn\.android\build-cache\4dde445225df72c4dcc493e08ce619a5a9781c43\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\erunn\.android\build-cache\676de2510b4261cffd05c29d8b4853d66518b803\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\erunn\.android\build-cache\dbc17ad6fca6e8c1c7767b61a974260e8df19174\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\erunn\.android\build-cache\522325f001b93eaa48a07b9dcc786af789755ccb\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\erunn\.android\build-cache\a5c34291246c17109629372c56d096f5f5b5bba3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\erunn\.android\build-cache\3b1a7c0b93e663363ad6674868599b526f0c0c66\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\erunn\.android\build-cache\2f248935961e7c03f9bdf758716d5fcf26ae668f\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\erunn\.android\build-cache\9f2ea106ca5c889158d80e4c23062566e512f8f0\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\erunn\.android\build-cache\9e5a9ae8da7ef392d9301eeacc540db7effbf9b7\output\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:12:9-41
+	android:supportsRtl
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:14:9-35
+	android:roundIcon
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:13:9-54
+	android:allowBackup
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:10:9-35
+	android:icon
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:11:9-43
+	android:theme
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:15:9-40
+activity#com.example.user.simplegyro.MainActivity
+ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:16:9-23:20
+	android:theme
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:17:13-63
+	android:name
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:16:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:18:13-22:29
+action#android.intent.action.MAIN
+ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:19:17-69
+	android:name
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:19:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:21:17-77
+	android:name
+		ADDED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml:21:27-74
+uses-sdk
+INJECTED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\erunn\.android\build-cache\a9e746af828424b526320e959e1e547d4174088d\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\erunn\.android\build-cache\4dde445225df72c4dcc493e08ce619a5a9781c43\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\erunn\.android\build-cache\676de2510b4261cffd05c29d8b4853d66518b803\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\erunn\.android\build-cache\dbc17ad6fca6e8c1c7767b61a974260e8df19174\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\erunn\.android\build-cache\522325f001b93eaa48a07b9dcc786af789755ccb\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\erunn\.android\build-cache\a5c34291246c17109629372c56d096f5f5b5bba3\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\erunn\.android\build-cache\3b1a7c0b93e663363ad6674868599b526f0c0c66\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\erunn\.android\build-cache\2f248935961e7c03f9bdf758716d5fcf26ae668f\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\erunn\.android\build-cache\9f2ea106ca5c889158d80e4c23062566e512f8f0\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support.constraint:constraint-layout:1.0.0-alpha7] C:\Users\erunn\.android\build-cache\9e5a9ae8da7ef392d9301eeacc540db7effbf9b7\output\AndroidManifest.xml:5:5-7:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\erunn\.android\build-cache\a9e746af828424b526320e959e1e547d4174088d\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml
+		INJECTED from E:\Github\SimpleGyro\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\erunn\.android\build-cache\a9e746af828424b526320e959e1e547d4174088d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\erunn\.android\build-cache\4dde445225df72c4dcc493e08ce619a5a9781c43\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\erunn\.android\build-cache\676de2510b4261cffd05c29d8b4853d66518b803\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\erunn\.android\build-cache\dbc17ad6fca6e8c1c7767b61a974260e8df19174\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\erunn\.android\build-cache\522325f001b93eaa48a07b9dcc786af789755ccb\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\erunn\.android\build-cache\a5c34291246c17109629372c56d096f5f5b5bba3\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\erunn\.android\build-cache\3b1a7c0b93e663363ad6674868599b526f0c0c66\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\erunn\.android\build-cache\2f248935961e7c03f9bdf758716d5fcf26ae668f\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\erunn\.android\build-cache\9f2ea106ca5c889158d80e4c23062566e512f8f0\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\erunn\.android\build-cache\a9e746af828424b526320e959e1e547d4174088d\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\erunn\.android\build-cache\a9e746af828424b526320e959e1e547d4174088d\output\AndroidManifest.xml:26:9-47
