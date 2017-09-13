@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/bg"
     tools:context="com.example.user.simplegyro.MainActivity">
 
 
@@ -26,12 +27,14 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentBottom="true"
                 android:layout_alignParentStart="true"
+                android:textColor="@color/lyric"
                 android:text="OPEN URL" />
 
             <EditText
                 android:id="@+id/etVieoURL"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:textColor="@color/lyric"
                 android:layout_weight="1" />
 
             <Button
@@ -56,6 +59,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center_horizontal"
+            android:textColor="@color/lyric"
             android:text="자막용 텍스트뷰" />
 
         <LinearLayout
