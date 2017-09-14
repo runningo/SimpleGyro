@@ -165,7 +165,7 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
         Button btn = (Button) findViewById(R.id.ptnLoad);
         btn.setVisibility(View.INVISIBLE);
         String url = tvURL.getText().toString();
-        Toast.makeText(getApplicationContext(), "싱크 조절 중...", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "1초 뒤 자막 재생..", Toast.LENGTH_LONG).show();
         videoView.setVideoURI(Uri.parse(url));
         videoView.requestFocus();
 
@@ -177,7 +177,7 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
                                             switch (what) {
                                                 case MediaPlayer.MEDIA_INFO_BUFFERING_START:
                                                     // Progress Diaglog 출력
-                                                    Toast.makeText(getApplicationContext(), "싱크 조절 중...", Toast.LENGTH_LONG).show();
+                                                    Toast.makeText(getApplicationContext(), "1초 뒤 자막 재생..", Toast.LENGTH_LONG).show();
                                                     break;
                                                 case MediaPlayer.MEDIA_INFO_BUFFERING_END:
                                                     // Progress Dialog 삭제
