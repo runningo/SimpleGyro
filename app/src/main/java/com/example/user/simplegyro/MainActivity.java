@@ -2,6 +2,7 @@ package com.example.user.simplegyro;
 
 import android.media.MediaPlayer;
 import android.net.Uri;
+import android.os.CountDownTimer;
 import android.os.Environment;
 import android.os.Handler;
 import android.os.Message;
@@ -59,6 +60,8 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
     private boolean useSmi;
     private int countSmi;
     private ArrayList<dataSmi> parsedSmi;
+    private Button btn;
+    private CountDownTimer cdt;
 
 
     @Override
@@ -120,6 +123,21 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
             useSmi = false;
         }
 //        seekBar = (SeekBar) findViewById(R.id.seekBar);
+        cdt = new CountDownTimer(10000, 1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+
+            }
+
+            @Override
+            public void onFinish() {
+                btn = (Button)findViewById(R.id.ptnLoad);
+                btn.performClick();
+            }
+        };
+    cdt.start();
+        Toast.makeText(getApplicationContext(), "10초 뒤 자막 재생", Toast.LENGTH_LONG).show();
+
     }
 
     @Override
@@ -181,7 +199,7 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
                                                     break;
                                                 case MediaPlayer.MEDIA_INFO_BUFFERING_END:
                                                     // Progress Dialog 삭제
-                                                    Toast.makeText(getApplicationContext(), "싱크 조절 완료, 재생시작", Toast.LENGTH_LONG).show();
+                                                    Toast.makeText(getApplicationContext(), "싱크 조절 완료 \n 재생시작", Toast.LENGTH_LONG).show();
                                                     videoView.start();
                                                     break;
                                             }
@@ -224,7 +242,7 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
 //                seekBar.setProgress(0);
                 updateHandler.postDelayed(updateVideoTime, 100);
                 //Toast Box
-                Toast.makeText(getApplicationContext(), "자막 재생 시작", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "싱크 조절 완료 \n 자막 재생 시작", Toast.LENGTH_SHORT).show();
                 videoView.setAlpha(0f);
             }
         });
