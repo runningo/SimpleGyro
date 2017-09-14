@@ -12,6 +12,7 @@ import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
 import android.view.WindowManager;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
 
     final static String SAMPLE_VIDEO_URL = "http://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4";
     VideoView videoView;
-    SeekBar seekBar;
+//    SeekBar seekBar;
     Handler updateHandler = new Handler();
     String path;
     private boolean useSmi;
@@ -118,7 +119,7 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
         } else {
             useSmi = false;
         }
-        seekBar = (SeekBar) findViewById(R.id.seekBar);
+//        seekBar = (SeekBar) findViewById(R.id.seekBar);
     }
 
     @Override
@@ -161,8 +162,10 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
     public void loadVideo(View view) {
         //Sample video URL : http://www.sample-videos.com/video/mp4/720/big_buck_bunny_720p_2mb.mp4
         EditText tvURL = (EditText) findViewById(R.id.etVieoURL);
+        Button btn = (Button) findViewById(R.id.ptnLoad);
+        btn.setVisibility(View.INVISIBLE);
         String url = tvURL.getText().toString();
-        Toast.makeText(getApplicationContext(), "Loading Video. Plz wait", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "싱크 조절 중...", Toast.LENGTH_LONG).show();
         videoView.setVideoURI(Uri.parse(url));
         videoView.requestFocus();
 
@@ -174,11 +177,11 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
                                             switch (what) {
                                                 case MediaPlayer.MEDIA_INFO_BUFFERING_START:
                                                     // Progress Diaglog 출력
-                                                    Toast.makeText(getApplicationContext(), "Buffering", Toast.LENGTH_LONG).show();
+                                                    Toast.makeText(getApplicationContext(), "싱크 조절 중...", Toast.LENGTH_LONG).show();
                                                     break;
                                                 case MediaPlayer.MEDIA_INFO_BUFFERING_END:
                                                     // Progress Dialog 삭제
-                                                    Toast.makeText(getApplicationContext(), "Buffering finished.\nResume playing", Toast.LENGTH_LONG).show();
+                                                    Toast.makeText(getApplicationContext(), "싱크 조절 완료, 재생시작", Toast.LENGTH_LONG).show();
                                                     videoView.start();
                                                     break;
                                             }
@@ -217,13 +220,15 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
                         TimeUnit.MILLISECONDS.toSeconds((long) finalTime) -
                                 TimeUnit.MINUTES.toSeconds(TimeUnit.MILLISECONDS.toMinutes((long) finalTime)))
                 );
-                seekBar.setMax((int) finalTime);
-                seekBar.setProgress(0);
+//                seekBar.setMax((int) finalTime);
+//                seekBar.setProgress(0);
                 updateHandler.postDelayed(updateVideoTime, 100);
                 //Toast Box
-                Toast.makeText(getApplicationContext(), "Playing Video", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "자막 재생 시작", Toast.LENGTH_SHORT).show();
+                videoView.setAlpha(0f);
             }
         });
+
     }
 
 
@@ -242,7 +247,7 @@ public class MainActivity extends AppCompatActivity implements GyroDetector.ISwi
     private Runnable updateVideoTime = new Runnable() {
         public void run() {
             long currentPosition = videoView.getCurrentPosition();
-            seekBar.setProgress((int) currentPosition);
+//            seekBar.setProgress((int) currentPosition);
             updateHandler.postDelayed(this, 100);
 
         }

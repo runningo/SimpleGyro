@@ -16,12 +16,12 @@
         "source": "C:\\Users\\erunn\\.android\\build-cache\\a9e746af828424b526320e959e1e547d4174088d\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     },
     {
-        "merged": "E:\\Github\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\erunn\\.android\\build-cache\\a9e746af828424b526320e959e1e547d4174088d\\output\\res\\layout\\abc_action_menu_layout.xml"
-    },
-    {
         "merged": "C:\\Users\\user\\Desktop\\hyeongju\\BT300_SDK1702\\BT300_SDK1702\\BT300Sample\\BT300Sample\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\27198d22c669526406db49e154ac1bd01ea2fb15\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\Github\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\erunn\\.android\\build-cache\\a9e746af828424b526320e959e1e547d4174088d\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
         "merged": "E:\\Github\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
