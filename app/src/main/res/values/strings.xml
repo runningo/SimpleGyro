@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Simple Gyro</string>
+
+    <string name="timePrompt">영화 상영 시작을 선택해주세요.</string>
+
+    <string-array name="yaloTime">
+        <item>13:40</item>
+        <item>14:00</item>
+        <item>14:10</item>
+    </string-array>
+    <string-array name="killerTime">
+        <item>13:20</item>
+        <item>13:35</item>
+    </string-array>
+    <string-array name="kingsTime">
+        <item>14:00</item>
+        <item>14:20</item>
+    </string-array>
 </resources>

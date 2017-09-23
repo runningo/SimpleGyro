@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\pnu\\graduation\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
+        "source": "C:\\Users\\erunn\\.android\\build-cache\\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
         "merged": "E:\\Github\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
         "source": "C:\\Users\\erunn\\.android\\build-cache\\a9e746af828424b526320e959e1e547d4174088d\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     },
@@ -14,5 +18,9 @@
     {
         "merged": "C:\\Users\\user\\Desktop\\hyeongju\\BT300_SDK1702\\BT300_SDK1702\\BT300Sample\\BT300Sample\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_dark.xml",
         "source": "C:\\Users\\user\\.android\\build-cache\\27198d22c669526406db49e154ac1bd01ea2fb15\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_dark.xml"
+    },
+    {
+        "merged": "E:\\pnu\\graduation\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\color-v11\\abc_background_cache_hint_selector_material_light.xml",
+        "source": "C:\\Users\\erunn\\.android\\build-cache\\4eaccf0d162ec009b115c7e0ff4f542f8d2a663b\\output\\res\\color-v11\\abc_background_cache_hint_selector_material_light.xml"
     }
 ]

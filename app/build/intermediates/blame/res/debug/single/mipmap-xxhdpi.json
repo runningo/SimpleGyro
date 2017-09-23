@@ -1,7 +1,15 @@
 [
     {
+        "merged": "E:\\pnu\\graduation\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
+        "source": "E:\\pnu\\graduation\\SimpleGyro\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
         "merged": "E:\\Github\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",
         "source": "E:\\Github\\SimpleGyro\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\pnu\\graduation\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher_round.png",
+        "source": "E:\\pnu\\graduation\\SimpleGyro\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.png"
     },
     {
         "merged": "C:\\Users\\user\\Desktop\\hyeongju\\BT300_SDK1702\\BT300_SDK1702\\BT300Sample\\BT300Sample\\SimpleGyro\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi\\ic_launcher.png",

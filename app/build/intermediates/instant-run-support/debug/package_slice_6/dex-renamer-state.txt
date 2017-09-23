@@ -1,4 +1,4 @@
-#Thu Sep 14 22:49:39 KST 2017
-base.0=E\:\\Github\\SimpleGyro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
+#Sat Sep 23 13:43:56 KST 2017
+base.0=E\:\\pnu\\graduation\\SimpleGyro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6
 renamed.0=classes.dex
-file.0=E\:\\Github\\SimpleGyro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex
+file.0=E\:\\pnu\\graduation\\SimpleGyro\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_6\\classes.dex
